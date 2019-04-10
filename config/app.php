@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Unckleg\Helpers\HelpersServiceProvider::class,
 
         /*
          * Application Service Providers...

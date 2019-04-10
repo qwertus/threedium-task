@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4731429c7f25ab92eaa813447a972209",
+    "content-hash": "b2f808f7fc4adbd12b712d41f7a1ab9f",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2578,6 +2578,51 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2017-11-27T11:13:29+00:00"
+        },
+        {
+            "name": "unckleg/laravel-helpers",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/unckleg/laravel-helpers.git",
+                "reference": "3daee1502f67efbde95402a16be501c4009afd51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/unckleg/laravel-helpers/zipball/3daee1502f67efbde95402a16be501c4009afd51",
+                "reference": "3daee1502f67efbde95402a16be501c4009afd51",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Unckleg\\Helpers\\": "src/Unckleg"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Djordje Stojiljkovic",
+                    "email": "djordjestojilljkovic@gmail.com"
+                }
+            ],
+            "description": "Laravel helpers package lets you use and create custom view/action helpers.",
+            "homepage": "https://github.com/unckleg/laravel-helpers",
+            "keywords": [
+                "Laravel Helpers",
+                "blade helpers",
+                "laravel",
+                "laravel blade helpers",
+                "laravel extension",
+                "laravel view helpers"
+            ],
+            "time": "2017-06-12T07:24:52+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
