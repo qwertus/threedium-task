@@ -22,6 +22,14 @@ class UsersTableSeeder extends Seeder
                 'api_token'         => bin2hex(openssl_random_pseudo_bytes(30)),
                 'created_at'        => Carbon::now('Europe/Belgrade')->format('Y-m-d H:i:s'),
                 'updated_at'        => Carbon::now('Europe/Belgrade')->format('Y-m-d H:i:s'),
+            ],
+            [
+                'name'              => 'Test',             
+                'email'             => 'test@threedium.com',
+                'password'          => bcrypt('threedium'),              
+                'api_token'         => bin2hex(openssl_random_pseudo_bytes(30)),
+                'created_at'        => Carbon::now('Europe/Belgrade')->format('Y-m-d H:i:s'),
+                'updated_at'        => Carbon::now('Europe/Belgrade')->format('Y-m-d H:i:s'),
             ]
         ];
         
