@@ -28,9 +28,11 @@ class ArticlesController extends Controller
     
     public function index(Request $request) {
         
+        $me = auth()->user()->id;
+        
         $validated = $request->validate([
-            'filters' => 'nullable',
-            'pagelimit'   => 'nullable|in:5,10,15,20',
+            'filters' => 'nullable|in:"",'.$me,
+            'pagelimit'   => 'in:5,10,20,50',
         ]);
         
         $filter = $validated['filters'];

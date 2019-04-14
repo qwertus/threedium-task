@@ -171,7 +171,7 @@
                         
                         <div class="m-portlet__body">
                             <div class="text-center row">
-                                <img class="mb-5 col-12" src="${article.cover_photo}">
+                                <img style="max-height:500px" class="mb-5 col-12" src="${article.cover_photo}">
                             </div>
                                 <p>${article.description}</p>
                             <div id="galery-article-${article.id}" class="text-center">
