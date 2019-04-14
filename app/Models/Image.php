@@ -19,7 +19,7 @@ class Image extends Model
      *  @access protected
      */
     protected $fillable = [
-        'feed_id', 'path'
+        'article_id', 'path','thumb'
     ];
     
     

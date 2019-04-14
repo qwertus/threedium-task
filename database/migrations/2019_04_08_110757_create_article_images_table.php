@@ -17,6 +17,7 @@ class CreateArticleImagesTable extends Migration
             $table->increments('id');
             $table->integer('article_id');
             $table->string('path');
+            $table->string('thumb');
             $table->timestamps();
         });
     }

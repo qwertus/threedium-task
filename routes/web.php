@@ -24,9 +24,11 @@ Route::middleware('auth')->namespace('Admin')->group(function () {
     //Articles routes
     
     Route::get('/articles/list', 'ArticlesController@index')->name('articles.index');
-    Route::get('/articles/create', 'ArticlesController@create')->name('articles.create');
-    Route::get('/articles/edit', 'ArticlesController@edit')->name('articles.edit');
-    
+    Route::get('/article/create', 'ArticlesController@create')->name('articles.create');
+    Route::get('/article/{id}', 'ArticlesController@singleArticle')->name('article.single');
+    Route::get('/article/edit/{id}', 'ArticlesController@edit')->name('article.edit');
+    Route::post('/article/update/{id}', 'ArticlesController@update')->name('article.update');
+    Route::get('/delete-media/image/{id}', 'ArticlesController@deleteImage');
     
     
     //Profile routes    

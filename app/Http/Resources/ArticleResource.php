@@ -15,10 +15,12 @@ class ArticleResource extends JsonResource
     public function toArray($request)
     {
         $images = [];
+        $thumbs = [];
 
         foreach ($this->images()->get() as $image){
 
             $images[] = $image->path;
+            $thumbs[] = $image->thumb;
 
         }
 
@@ -28,6 +30,7 @@ class ArticleResource extends JsonResource
         $thisFeed['description'] =  $this->description;
         $thisFeed['cover_photo'] =  $this->cover_photo;
         $thisFeed['images'] =  $images;
+        $thisFeed['thumbs'] =  $thumbs;
         
         return $thisFeed;
     }

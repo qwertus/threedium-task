@@ -10,14 +10,14 @@
         <meta name="description" content="Latest updates and statistic charts">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="/css/fonts.css" rel="stylesheet" type="text/css"/>
+        <!--<link href="/css/fonts.css" rel="stylesheet" type="text/css"/>-->
         <!--begin::Base Styles -->
         <link href="/templates/metronic/assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
         <link href="/templates/metronic/assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 
         <!--end::Base Styles -->
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/templates/metronic/favicon/apple-touch-icon.png">
+        <!--<link rel="apple-touch-icon" sizes="180x180" href="/templates/metronic/favicon/apple-touch-icon.png">-->
         <link rel="icon" type="image/png" sizes="32x32" href="/templates/metronic/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/templates/metronic/favicon/favicon-16x16.png">
         <link rel="manifest" href="/templates/metronic/favicon/manifest.json">
@@ -41,7 +41,7 @@
                 }
                 });
         </script>
-        <script src="/fonts/main.js"></script>
+        <!--<script src="/fonts/main.js"></script>-->
         <!--end::Web font -->
         @stack('page-css')
     </head>
