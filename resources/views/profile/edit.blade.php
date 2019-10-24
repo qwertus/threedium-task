@@ -1,5 +1,11 @@
 @extends('layouts.admin.main')
 
+@section('seo-title')
+    <title>
+        Threedium | Edit Profile
+    </title>
+@endsection
+
 @section('content')
 <div class="m-content">
     @include('layouts.admin.partials.system-messages')
@@ -52,7 +58,7 @@
                         <button type="submit" class="btn btn-primary">
                             {{trans('admin.save_changes')}}
                         </button>
-                        <a href="{{route('home')}}" class="btn btn-secondary">
+                        <a href="{{route('articles.index')}}" class="btn btn-secondary">
                             {{trans('admin.cancel')}}
                         </a>
                     </div>
